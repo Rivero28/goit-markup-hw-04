@@ -86,7 +86,6 @@ ol {
 .menu-item {
   padding: 24px 0;
 }
-
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -123,7 +122,7 @@ ol {
 }
 .main-banner {
   background-color: #2e2f42;
-
+  background-image: url(./images/people-office.jpg);
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -211,7 +210,6 @@ ol {
   margin-bottom: 8px;
   text-align: center;
 }
-
 .main-list-item-description {
   font-size: 16px;
   line-height: 1.5;
@@ -231,7 +229,6 @@ ol {
 .fourth-section {
   background-color: #f4f4fd;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -257,12 +254,19 @@ ol {
   padding-top: 0;
   padding-bottom: 120px;
 }
+.customers-section {
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
   display: block;
 }
-
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -279,6 +283,28 @@ ol {
 .footer-secondary {
   display: flex;
   flex-direction: column;
+}
+.footer-header {
+  color: #ffffff;
+  font: inherit;
+  weight: 500;
+  size: 16px;
+}
+.icon-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 36px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon-list-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 /*PORTFOLIO*/
 .button-list {
