@@ -130,11 +130,8 @@ ol {
   padding: 188px 0;
 }
 .main-banner-background {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url (../images/office.jpg);
+  background-image: url (../images/office.jpg),
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
   background-color: #2e2f42;
   max-width: 1440px;
   background-repeat: no-repeat;
@@ -474,5 +471,11 @@ ol {
 .portfolio-link {
   display: block;
 }
-.portfolio-link:hover {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
-.portfolio-link:focus {0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
+.portfolio-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
