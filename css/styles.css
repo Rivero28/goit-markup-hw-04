@@ -130,8 +130,11 @@ ol {
   padding: 188px 0;
 }
 .main-banner-background {
-  background-image: url (../images/office.jpg),
-    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/office.jpg);
   background-color: #2e2f42;
   max-width: 1440px;
   background-repeat: no-repeat;
