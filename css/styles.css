@@ -46,6 +46,7 @@ ol {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -115,7 +116,6 @@ ol {
   color: #2e2f42;
   padding: 24px 0;
 }
-
 .link:hover {
   color: #404bbf;
 }
@@ -272,6 +272,10 @@ ol {
   padding-top: 0;
   padding-bottom: 120px;
 }
+.customers-section > .container {
+  display: flex;
+  flex-direction: column;
+}
 .customers-list {
   display: flex;
   justify-content: center;
@@ -306,7 +310,11 @@ ol {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: block;
+}
+.footer > .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 .footer-link {
   display: inline-block;
@@ -326,7 +334,6 @@ ol {
 }
 .footer-secondary {
   display: flex;
-  flex-direction: column;
   align-items: baseline;
 }
 .footer-header {
@@ -342,6 +349,7 @@ ol {
   justify-content: center;
   flex-direction: row;
   gap: 24px;
+  padding-top: 8px;
 }
 .icons {
   display: flex;
