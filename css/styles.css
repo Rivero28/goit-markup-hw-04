@@ -140,6 +140,7 @@ ol {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 .main-banner > .container {
   width: 600px;
@@ -335,6 +336,7 @@ ol {
 .footer-secondary {
   display: flex;
   align-items: baseline;
+  place-content: start;
 }
 .footer-header {
   color: #ffffff;
